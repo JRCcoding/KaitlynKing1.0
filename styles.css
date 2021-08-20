@@ -23,6 +23,7 @@ body {
     width: 100%;
     padding: 0 0 0 3%;
     background-color: #F8648B;
+    width: 100%;
 }
 
 @media (max-width: 900px) {
@@ -111,6 +112,49 @@ img#kait {
     letter-spacing: 6px;
 }
 
+/*Responsivity of navBar*/
+
+.icon {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .navBar a.link {display:none;}
+    .navBar a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media (max-width: 900px) {
+    .navBarresponsive {position: relative;background-color:#5E51E8;margin:0;}
+    .navBarresponsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navBarresponsive a:hover {
+        color: white;
+
+    }
+    .navBarresponsive li {
+        color: white;
+        font-size: 24px;
+        font-family: 'Gruppo', serif;
+        letter-spacing: 6px;
+    }
+    .navBarresponsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        font-size: 24px;
+        margin-right: 6px;
+        color: white;
+        text-decoration: none;
+        padding-top: 4px;
+    }
+}
+
 /*Sticky navBar*/
 
 .nonsticky {
@@ -153,9 +197,18 @@ img#kait {
 
 
 
-#portfolio h1, #portfolio p , #portfoliotext p {
+/* #portfolio h1, #portfolio p , #portfoliotext p {
     margin-left: 15%;
     margin-right: 25px;
+} */
+.main h1, .main p {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+@media (max-width:900px) {
+    .main h1 {font-size:44px;margin:0}
+    .main p {font-size:small;margin:0}
+    .main a {font-size:small;margin:0}
 }
 
 #text {
@@ -257,9 +310,6 @@ SLIDESHOW END*/
     text-align: left;
 }
 
-#socialMedia h1, #socialMedia p {
-    margin-left: 15%;
-}
 
 #contact {
     text-align: right;
