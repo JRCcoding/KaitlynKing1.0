@@ -24,9 +24,8 @@ function myNav() {
       navBar.classList.add("navBarresponsive")
       navBar.classList.remove("navBar");
     }
-    else {x.className = "navBar sticky";}
+    else {x.className = "navBar";}
   }
-  //else {x.className = "navBar";}
 
 
 // SLIDESHOW
