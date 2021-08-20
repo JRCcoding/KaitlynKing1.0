@@ -149,11 +149,14 @@ body {
 
 /*SERVICE TABLE*/
 .tablediv {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 30%;
+    margin-right: 15%;
+    box-shadow: 5px 10px 8px #cd60ff;
 }
 .table {
-    width:100%
+    width:100%;
+    border: 2px solid;
+    border-color: gray;
 }
 
 .right {
