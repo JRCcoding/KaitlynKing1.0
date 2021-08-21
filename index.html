@@ -6,310 +6,296 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/ico" href="favicon.ico">
-      <link rel="stylesheet" href="styles.css">
-      <!-- BootStrap -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-      <!-- Enter Fonts API -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-      <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans+Condensed:wght@300&family=Gruppo&family=Solway:wght@300&display=swap" rel="stylesheet">
-    </head>
-    <body>
-      <!--<img id="topsplash" src="#" alt="">-->
-      <!--<img src="images/smoke.jpeg" alt="clouds">-->
+    <link rel="stylesheet" href="styles.css">
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Enter Fonts API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans+Condensed:wght@300&family=Gruppo&family=Solway:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="top"> 
       
-      <div class="top"> 
+      <img id="splashleft" src="images/splashleft.png" alt="splash image1">
+      <img id="splashright" src="images/splashright.png" alt="splash image2">
+
+    </div>
         
-        <img id="splashleft" src="images/splashleft.png" alt="splash image1">
-        <img id="splashright" src="images/splashright.png" alt="splash image2">
-
-        <!--<img id="crown" src="images/crown.png" alt="The Queen's Crown">
-        <div class="splash splashes">
-
-          
-
-          <h1 id="name">Kaitlyn King</h1> 
-
-          <img id="kait" src="images/splash1.png" alt="Splash Page Test1">
-          
-          <p id="facts"><br><br><br><br><br><br><br><br>Ready to feel your absolute best?<br>No, your real best?<br>Kaitlyn will have you feeling your ultimate best in <u><b>no time!</b></u><br>
-          </p>
-        </div>-->
-      </div>
-         
-      <ul id="nav" class="navBar">
-        <li><a href="#portfolio" class="link">PORTFOLIO</a></li>
-        <li><a href="#services" class="link">SERVICES</a></li>
-        <li><a href="#contact" class="link">CONTACT</a></li>
-        <li><a href="https://square.site/book/LWQB14RQ6GHAH/kaitlyn-king-at-enviouskin-midland-tx" alt="booking" class="link">BOOKING</a></li>
-        <a href="javascript:void(0);" class="icon" onclick="myNav()"><i class="fas fa-bars"></i></a>
-      </ul>
-      
-      <div class="main content">
+    <ul id="nav" class="navBar">
+      <li><a href="#portfolio" class="link">PORTFOLIO</a></li>
+      <li><a href="#services" class="link">SERVICES</a></li>
+      <li><a href="#contact" class="link">CONTACT</a></li>
+      <li><a href="https://square.site/book/LWQB14RQ6GHAH/kaitlyn-king-at-enviouskin-midland-tx" alt="booking" class="link">BOOKING</a></li>
+      <a href="javascript:void(0);" class="icon" onclick="myNav()"><i class="fas fa-bars"></i></a>
+    </ul>
+    
+    <div class="main content">
 
 
-        <div id="portfolio" class="box">
-          <br>
-          <h1>Portfolio</h1>
-          <!-- SLIDESHOW
-                <div class="slideshow">
-                    <div class="mySlides">
-                      <div class="numbertext">1 / 5</div>
-                      <img src="images/port/port1.png" style="width:100%">
-                    </div>
-
-                    <div class="mySlides">
-                      <div class="numbertext">2 / 5</div>
-                      <img src="images/port/port2.png" style="width:100%">
-                    </div>
-
-                    <div class="mySlides">
-                      <div class="numbertext">3 / 5</div>
-                      <img src="images/port/port3.png" style="width:100%">
-                    </div>
-
-                    <div class="mySlides">
-                      <div class="numbertext">4 / 5</div>
-                      <img src="images/port/port4.png" style="width:100%">
-                    </div>
-
-                    <div class="mySlides">
-                      <div class="numbertext">5 / 5</div>
-                      <img src="images/port/port5.png" style="width:100%">
-                    </div>
-
-
-                    <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
-                    <div class="next" onclick="plusSlides(1)">&#10095;</div>
-
-                    <div class="caption-container">
-                      <p id="caption"></p>
-                    </div>
-
-                    <div class="row">
-                      <div class="column">
-                        <img class="demo cursor" src="images/port/port1.png" style="width:100%" onclick="currentSlide(1)" alt="Texas Cosmetology License">
-                      </div>
-                      <div class="column">
-                        <img class="demo cursor" src="images/port/port2.png" style="width:100%" onclick="currentSlide(2)" alt="Armpit Waxes">
-                      </div>
-                      <div class="column">
-                        <img class="demo cursor" src="images/port/port3.png" style="width:100%" onclick="currentSlide(3)" alt="Vagacial Certificate">
-                      </div>
-                      <div class="column">
-                        <img class="demo cursor" src="images/port/port4.png" style="width:100%" onclick="currentSlide(4)" alt="Eyebrow Specialist">
-                      </div>
-                      <div class="column">
-                        <img class="demo cursor" src="images/port/port5.png" style="width:100%" onclick="currentSlide(5)" alt="Classic Leg Waxes">
-                      </div>
-                    </div>    
-                </div>
-              -->
-        </div>
-        <div class="text">
-          <p>A quick view into what Kaitlyn can do for you!</p>
-        </div>
-        
-
-        <div id="services" class="box">
-          <br>
-          <h1>Services</h1>
-        </div>
-        
-        <div>
-          <p class="text right">What services can Kaitlyn provide for you today?
-            <br>Open the menu to see all the options!<br><button type="button" class="btn btn-info btn-lg" data-bs-toggle="modal" data-bs-target="#myModal" onclick="modalButton()">MENU</button>
-          </p>
-          
-
-          <div id="myModal" class="modal fade" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen-md-down">
-
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h4 class="modal-title" id="myModalLabel">Services:</h4>
-                  <button type="button" class="btn-close" data-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                    <table class="table table-striped">
-                      <thead>
-                        <tr>
-                          <th scope="col">Service</th>
-                          <th scope="col">Cost</th>
-                          <th scope="col">Area</th>
-                          <th scope="col">Time</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row">Full Face Wax</th>
-                          <td>$59</td>
-                          <td>Face</td>
-                          <td>30 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Eyebrow Wax</th>
-                          <td>$21</td>
-                          <td>Face</td>
-                          <td>30 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Nose Wax</th>
-                          <td>$16</td>
-                          <td>Face</td>
-                          <td>15 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Lip Wax</th>
-                          <td>$12</td>
-                          <td>Face</td>
-                          <td>15 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Chin Wax</th>
-                          <td>$13</td>
-                          <td>Face</td>
-                          <td>15 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Ear Wax</th>
-                          <td>$13</td>
-                          <td>Face</td>
-                          <td>15 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Sideburn Wax</th>
-                          <td>$15</td>
-                          <td>Face</td>
-                          <td>15 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Combo Brow Tint+Lamination</th>
-                          <td>$60</td>
-                          <td>Face</td>
-                          <td>45 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Eyebrow Tint</th>
-                          <td>$20</td>
-                          <td>Face</td>
-                          <td>30 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Eyebrow Lamination</th>
-                          <td>$40</td>
-                          <td>Face</td>
-                          <td>45 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Jelly Mask</th>
-                          <td>$15</td>
-                          <td>Face</td>
-                          <td>20 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Dermaplane+Jelly Mask</th>
-                          <td>$80</td>
-                          <td>Face</td>
-                          <td>1 hour 10 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">*Dermaplane add-on</th>
-                          <td>$20</td>
-                          <td>Face</td>
-                          <td>1 hour</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Custom SkinScript Facial</th>
-                          <td>$100</td>
-                          <td>Face</td>
-                          <td>1 hour</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Vagacial</th>
-                          <td>$55</td>
-                          <td>Body</td>
-                          <td>45 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Brazilian Wax</th>
-                          <td>$55</td>
-                          <td>Body</td>
-                          <td>15 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Bikini Line Wax</th>
-                          <td>$39</td>
-                          <td>Body</td>
-                          <td>15 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Stomach Wax</th>
-                          <td>$35</td>
-                          <td>Body</td>
-                          <td>30 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Lower Back Wax</th>
-                          <td>$32</td>
-                          <td>Body</td>
-                          <td>30 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Full Back Wax</th>
-                          <td>$70</td>
-                          <td>Body</td>
-                          <td>45 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Full Leg Wax</th>
-                          <td>$80</td>
-                          <td>Legs</td>
-                          <td>45 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Upper Leg Wax</th>
-                          <td>$47</td>
-                          <td>Legs</td>
-                          <td>30 min</td>
-                        </tr>
-                        <tr>
-                          <th scope="col">Lower Leg Wax</th>
-                          <td>$45</td>
-                          <td>Legs</td>
-                          <td>30 min</td>
-                        </tr>
-                      </tbody>
-                    </table>
+      <div id="portfolio" class="box">
+        <br>
+        <h1>Portfolio</h1>
+        <!-- SLIDESHOW
+              <div class="slideshow">
+                  <div class="mySlides">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="images/port/port1.png" style="width:100%">
                   </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                  <div class="mySlides">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="images/port/port2.png" style="width:100%">
+                  </div>
+
+                  <div class="mySlides">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="images/port/port3.png" style="width:100%">
+                  </div>
+
+                  <div class="mySlides">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="images/port/port4.png" style="width:100%">
+                  </div>
+
+                  <div class="mySlides">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="images/port/port5.png" style="width:100%">
+                  </div>
+
+
+                  <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
+                  <div class="next" onclick="plusSlides(1)">&#10095;</div>
+
+                  <div class="caption-container">
+                    <p id="caption"></p>
+                  </div>
+
+                  <div class="row">
+                    <div class="column">
+                      <img class="demo cursor" src="images/port/port1.png" style="width:100%" onclick="currentSlide(1)" alt="Texas Cosmetology License">
+                    </div>
+                    <div class="column">
+                      <img class="demo cursor" src="images/port/port2.png" style="width:100%" onclick="currentSlide(2)" alt="Armpit Waxes">
+                    </div>
+                    <div class="column">
+                      <img class="demo cursor" src="images/port/port3.png" style="width:100%" onclick="currentSlide(3)" alt="Vagacial Certificate">
+                    </div>
+                    <div class="column">
+                      <img class="demo cursor" src="images/port/port4.png" style="width:100%" onclick="currentSlide(4)" alt="Eyebrow Specialist">
+                    </div>
+                    <div class="column">
+                      <img class="demo cursor" src="images/port/port5.png" style="width:100%" onclick="currentSlide(5)" alt="Classic Leg Waxes">
+                    </div>
+                  </div>    
+              </div>
+            -->
+      </div>
+      <div class="text">
+        <p>A quick view into what Kaitlyn can do for you!</p>
+      </div>
+      
+
+      <div id="services" class="box">
+        <br>
+        <h1>Services</h1>
+      </div>
+      
+      <div>
+        <p class="text right">What services can Kaitlyn provide for you today?
+          <br>Open the menu to see all the options!<br><button type="button" class="btn btn-info btn-lg" data-bs-toggle="modal" data-bs-target="#myModal" onclick="modalButton()">MENU</button>
+        </p>
+        
+
+        <div id="myModal" class="modal fade" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen-md-down">
+
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Services:</h4>
+                <button type="button" class="btn-close" data-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">Service</th>
+                        <th scope="col">Cost</th>
+                        <th scope="col">Area</th>
+                        <th scope="col">Time</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Full Face Wax</th>
+                        <td>$59</td>
+                        <td>Face</td>
+                        <td>30 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Eyebrow Wax</th>
+                        <td>$21</td>
+                        <td>Face</td>
+                        <td>30 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Nose Wax</th>
+                        <td>$16</td>
+                        <td>Face</td>
+                        <td>15 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Lip Wax</th>
+                        <td>$12</td>
+                        <td>Face</td>
+                        <td>15 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Chin Wax</th>
+                        <td>$13</td>
+                        <td>Face</td>
+                        <td>15 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Ear Wax</th>
+                        <td>$13</td>
+                        <td>Face</td>
+                        <td>15 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Sideburn Wax</th>
+                        <td>$15</td>
+                        <td>Face</td>
+                        <td>15 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Combo Brow Tint+Lamination</th>
+                        <td>$60</td>
+                        <td>Face</td>
+                        <td>45 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Eyebrow Tint</th>
+                        <td>$20</td>
+                        <td>Face</td>
+                        <td>30 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Eyebrow Lamination</th>
+                        <td>$40</td>
+                        <td>Face</td>
+                        <td>45 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Jelly Mask</th>
+                        <td>$15</td>
+                        <td>Face</td>
+                        <td>20 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Dermaplane+Jelly Mask</th>
+                        <td>$80</td>
+                        <td>Face</td>
+                        <td>1 hour 10 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">*Dermaplane add-on</th>
+                        <td>$20</td>
+                        <td>Face</td>
+                        <td>1 hour</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Custom SkinScript Facial</th>
+                        <td>$100</td>
+                        <td>Face</td>
+                        <td>1 hour</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Vagacial</th>
+                        <td>$55</td>
+                        <td>Body</td>
+                        <td>45 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Brazilian Wax</th>
+                        <td>$55</td>
+                        <td>Body</td>
+                        <td>15 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Bikini Line Wax</th>
+                        <td>$39</td>
+                        <td>Body</td>
+                        <td>15 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Stomach Wax</th>
+                        <td>$35</td>
+                        <td>Body</td>
+                        <td>30 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Lower Back Wax</th>
+                        <td>$32</td>
+                        <td>Body</td>
+                        <td>30 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Full Back Wax</th>
+                        <td>$70</td>
+                        <td>Body</td>
+                        <td>45 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Full Leg Wax</th>
+                        <td>$80</td>
+                        <td>Legs</td>
+                        <td>45 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Upper Leg Wax</th>
+                        <td>$47</td>
+                        <td>Legs</td>
+                        <td>30 min</td>
+                      </tr>
+                      <tr>
+                        <th scope="col">Lower Leg Wax</th>
+                        <td>$45</td>
+                        <td>Legs</td>
+                        <td>30 min</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
-
-        </div>
-
-        <div id="contact" class="box">
-          <br>
-          <h1>Contact Me</h1>
-         
-        </div>
-        <div class="text">
-          <a href="mailto:ktlynkng@outlook.com" alt="email"> ktlynkng@outlook.com </a><br>
-          <a href="tel:+14326316455" alt="call">(432) 631-6455</a><br>
-          <a href="http://instagram.com/kaitlynking/" alt="Instagram Profile"><i class="fab fa-instagram"></i>&nbsp;&nbsp;kaitlynking</a><br>
-          Book an appointment on <a href="https://square.site/book/LWQB14RQ6GHAH/kaitlyn-king-at-enviouskin-midland-tx" target="blank">SquareSite</a>!
         </div>
       </div>
-    
+
+      <div id="contact" class="box">
+        <br>
+        <h1>Contact Me</h1>
+      </div>
+
+      <div class="text">
+        <a href="mailto:ktlynkng@outlook.com" alt="email"> ktlynkng@outlook.com </a><br>
+        <a href="tel:+14326316455" alt="call">(432) 631-6455</a><br>
+        <a href="http://instagram.com/kaitlynking/" alt="Instagram Profile"><i class="fab fa-instagram"></i>&nbsp;&nbsp;kaitlynking</a><br>
+        Book an appointment on <a href="https://square.site/book/LWQB14RQ6GHAH/kaitlyn-king-at-enviouskin-midland-tx" target="blank">SquareSite</a>!
+      </div>
+
+    </div>
+  
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="scripts.js" charset="utf-8"></script>
-    <script src="https://kit.fontawesome.com/d309673bc4.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="scripts.js" charset="utf-8"></script>
+      <script src="https://kit.fontawesome.com/d309673bc4.js" crossorigin="anonymous"></script>
   </body>
 </html>
