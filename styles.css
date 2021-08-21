@@ -1,3 +1,8 @@
+/*BOOTSTRAP*/
+.container {
+    background-color: #F8648B;
+}
+
 /*Main Setup*/
 
 * {
@@ -7,6 +12,7 @@
 body {
     overflow-x: hidden;
     margin: 0;
+    background-color: #F8648B;
 }
 
 .top {
@@ -15,8 +21,8 @@ body {
     justify-content: center;
     width: 100%;
     padding: 0 0 0 3%;
-    background-color: #F8648B;
     width: 100%;
+    background-color: #F8648B;
 }
 
 @media (max-width: 900px) {
