@@ -28,6 +28,12 @@ function myNav() {
   }
 
 
+//MODAL
+function modalButton() {
+$(document).ready(function() {
+  $("#myModal").modal();
+})}
+
 // SLIDESHOW
 
 // var slideIndex = 1;

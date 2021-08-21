@@ -3,6 +3,11 @@
     background-color: #F8648B;
 }
 
+.btn-info, .btn-info:hover, .btn-info:active, .btn-info:visited {
+    background-color: #5E51E8 !important;
+    border-color: #554ace !important;
+    color: #ffffff !important;
+}
 /*Main Setup*/
 
 * {
