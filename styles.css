@@ -27,7 +27,7 @@ body {
     background-color: #F8648B;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .top {
         flex-direction: column-reverse;
     }
@@ -203,13 +203,9 @@ aside {
     .main a {font-size:small;margin:0}
 }
 
-/* .mobile-br {display:none;}
 
-@media (max-width:400px) {
-    .mobile-br {display:inline;}
-}  */
-
-@media (max-width:1200px) {
+ 
+@media (max-width:1374px) {
     .top img#splashleft {
         /* order:2; */
         width: 100%;
@@ -220,4 +216,4 @@ aside {
         width:100%;
         height:100%;
     }
-} 
+}  
