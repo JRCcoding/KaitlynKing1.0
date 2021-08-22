@@ -39,7 +39,7 @@ body {
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 650px) {
     .top {
         flex-direction: column-reverse;
     }
@@ -47,7 +47,7 @@ body {
         display: none;
     }
 }
-@media (min-width: 450px) {
+@media (min-width: 650px) {
     #splashright-rep {
         display: flex;
         visibility:hidden;
