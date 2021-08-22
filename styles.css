@@ -88,6 +88,11 @@ body {
     width: 100%;
 }
 
+/* .carouselcss {
+    height: 60%;
+    width: auto;
+} */
+
 .main {
     background-image: linear-gradient(to right, #DBC8FA, #DB8FFA);
 }
