@@ -28,7 +28,7 @@ function myNav() {
   }
 
 
-//MODAL
+//MENU MODAL
 function modalButton() {
   $(document).ready(function() {
     $("#myModal").modal();
