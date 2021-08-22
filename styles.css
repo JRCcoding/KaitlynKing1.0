@@ -30,9 +30,20 @@ body {
     background-color: #F8648B;
 }
 
-@media (max-width: 900px) {
-    .top img#splashleft {width:50%}
-    .top img#splashright {width:50%}
+/* @media (max-width: 900px) {
+    .top img#splashleft {width:50%;position:relative;bottom:0;}
+    .top img#splashright {width:50%;position:relative;top:0;}
+} */
+
+@media (max-width:1200px) {
+    .top img#splashleft {
+        width:100%;
+        height:100%;
+    }
+    .top img#splashright {
+        width:100%;
+        height:100%;
+    }
 }
 
 /*navBar Setup*/
@@ -59,7 +70,6 @@ body {
 .navBar a:hover, .navBar a {
     text-decoration: none;
     color: white;
-    font-size: 24px;
     font-family: 'Gruppo', serif;
     letter-spacing: 14px;
 }
@@ -70,42 +80,7 @@ body {
     display: none;
 }
 
-@media (max-width: 900px) {
-    .navBar a.link {display:none;}
-    .navBar a.icon {
-        float: right;
-        display: block;
-    }
-}
 
-@media (max-width: 900px) {
-    .navBarresponsive {position: relative;background-color:#5E51E8;margin:0;}
-    .navBarresponsive a.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .navBarresponsive a:hover {
-        color: white;
-
-    }
-    .navBarresponsive li {
-        color: white;
-        font-size: 24px;
-        font-family: 'Gruppo', serif;
-        letter-spacing: 6px;
-    }
-    .navBarresponsive a {
-        float: none;
-        display: block;
-        text-align: left;
-        font-size: 24px;
-        margin-right: 6px;
-        color: white;
-        text-decoration: none;
-        padding-top: 4px;
-    }
-}
 
 /*STICKY .navBar*/
 
@@ -144,11 +119,7 @@ body {
     margin-left: 15%;
 }
 
-@media (max-width:900px) {
-    .main h1 {font-size:44px;margin:0}
-    .main p {font-size:small;margin:0}
-    .main a {font-size:small;margin:0}
-}
+
 
 .text {
     margin-left: 15%;
@@ -254,7 +225,6 @@ body {
 SLIDESHOW END*/
 
 
-
 aside {
     position: relative;
     left: 49%;
@@ -269,4 +239,60 @@ aside {
 
 #contact {
     text-align: left;
+}
+
+
+
+@media (max-width: 900px) {
+    .navBar a.link {display:none;}
+    .navBar a.icon {
+        float: right;
+        display: block;
+    }
+    iframe {
+        width: 150px;
+        height: 250px;
+        margin-right: 15%;
+    }
+    aside {
+        bottom: 0;
+    }
+    #mapleft {
+        margin: 15px;
+    }
+    .text {
+        margin-left:15px;
+    }
+    .text.right {
+        margin-right:15px;
+    }
+    .navBarresponsive {position: relative;background-color:#5E51E8;margin:0;}
+    .navBarresponsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navBarresponsive a:hover {
+        color: white;
+
+    }
+    .navBarresponsive li {
+        color: white;
+        font-size: 24px;
+        font-family: 'Gruppo', serif;
+        letter-spacing: 6px;
+    }
+    .navBarresponsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        font-size: 24px;
+        margin-right: 6px;
+        color: white;
+        text-decoration: none;
+        padding-top: 4px;
+    }
+    .main h1 {font-size:44px;margin:0}
+    .main p {font-size:small;margin:0}
+    .main a {font-size:small;margin:0}
 }
