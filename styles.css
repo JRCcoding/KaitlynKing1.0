@@ -27,9 +27,33 @@ body {
     background-color: #F8648B;
 }
 
+#splashright-rep {
+    text-align: center;
+    align-content: center;
+    margin-left:15%;
+    font-family: 'Solway', serif;
+    color: white;
+    background-color:#5E51E8;
+    width: 250px;
+    font-size: 18px;
+}
+
+
 @media (max-width: 450px) {
     .top {
         flex-direction: column-reverse;
+    }
+    #splashright {
+        display: none;
+    }
+}
+@media (min-width: 450px) {
+    #splashright-rep {
+        display: flex;
+        visibility:hidden;
+    }
+    .top {
+        padding-left: 18%;
     }
 }
 
