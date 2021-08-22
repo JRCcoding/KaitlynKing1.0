@@ -80,7 +80,7 @@ body {
 }
 
 .main {
-    background-image: linear-gradient(to right, #DBC8FA, #DB8FFA);
+    background-image: linear-gradient(to right, #DBC8FA, #d476ff);
 }
 
 .box {
@@ -102,6 +102,9 @@ body {
     margin-left: 23%;
     margin-right: 23%;
 }
+/*CAROUSEL*/
+
+
 
 /*SERVICE TABLE*/
 .tablediv {
