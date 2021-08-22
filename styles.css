@@ -26,15 +26,10 @@ body {
     width: 100%;
     background-color: #F8648B;
 }
+
 @media (max-width: 400px) {
     .top {
-        flex-direction: column;
-    }
-    #splashleft {
-        order:2;
-    }
-    #splashright {
-        order:1;
+        flex-direction: column-reverse;
     }
 }
 
@@ -208,11 +203,11 @@ aside {
     .main a {font-size:small;margin:0}
 }
 
-.mobile-br {display:none;}
+/* .mobile-br {display:none;}
 
 @media (max-width:400px) {
     .mobile-br {display:inline;}
-} 
+}  */
 
 @media (max-width:1200px) {
     .top img#splashleft {
