@@ -12,22 +12,6 @@ window.onscroll = function() {
     }
 }
 
-
-// //RESPONSIVE NAVBAR
-
-// function myNav() {
-//   var x = document.getElementById("nav");
-//     if (x.className === "navBar") {
-//       x.className += "responsive";
-//     } 
-//     else  if (x.className === "navBar sticky") {
-//       navBar.classList.add("navBarresponsive")
-//       navBar.classList.remove("navBar");
-//     }
-//     else {x.className = "navBar";}
-//   }
-
-
 //MENU MODAL
 function modalButton() {
   $(document).ready(function() {

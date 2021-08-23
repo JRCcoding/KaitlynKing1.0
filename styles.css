@@ -187,12 +187,6 @@ aside {
 /*On smaller screens*/
 
 @media (max-width: 750px) {
-    /* .navBar a.link {display:none;}
-    .navBar a.icon {
-        float: right;
-        display: block;
-    } */
-
     ul#nav.navBar {
         display: inline-flex;
         justify-content: center;
