@@ -186,7 +186,7 @@ aside {
 
 /*On smaller screens*/
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
     /* .navBar a.link {display:none;}
     .navBar a.icon {
         float: right;
