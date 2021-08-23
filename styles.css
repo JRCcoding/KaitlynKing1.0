@@ -67,6 +67,18 @@ body {
     border-bottom: solid 8px #5E51E8;
 }
 
+.navLogo {
+    height: 25px;
+    width:auto;
+}
+
+ul#nav.navBar {
+    display: inline-flex;
+    justify-content: center;
+}
+
+
+
 .navBar ul {
     width: 100%;
     padding: 5px 0 5px 0;
@@ -75,7 +87,7 @@ body {
 .navBar li {
     display: inline;
     margin: 5px 0 5px 0;
-    padding: 5px 0 5px 10.75%;
+    padding: 5px 4% 5px 4%;
 }
 
 .navBar a:hover, .navBar a {
@@ -175,10 +187,19 @@ aside {
 /*On smaller screens*/
 
 @media (max-width: 900px) {
-    .navBar a.link {display:none;}
+    /* .navBar a.link {display:none;}
     .navBar a.icon {
         float: right;
         display: block;
+    } */
+
+    ul#nav.navBar {
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    #hide {
+        display:none;
     }
     iframe {
         width: 150px;
@@ -196,7 +217,7 @@ aside {
     .text.right {
         margin-right:15px;
     }
-    .navBarresponsive {position: relative;background-color:#5E51E8;margin:0;}
+    /* .navBarresponsive {position: fixed;top:0;background-color:#5E51E8;margin:0;width:100%;}
     .navBarresponsive a.icon {
         position: absolute;
         right: 0;
@@ -211,6 +232,7 @@ aside {
         font-size: 24px;
         font-family: 'Gruppo', serif;
         letter-spacing: 6px;
+        list-style-type: none;
     }
     .navBarresponsive a {
         float: none;
@@ -221,7 +243,7 @@ aside {
         color: white;
         text-decoration: none;
         padding-top: 4px;
-    }
+    } */
     .main h1 {font-size:44px;margin:0}
     .main p {font-size:small;margin:0}
     .main a {font-size:small;margin:0}
