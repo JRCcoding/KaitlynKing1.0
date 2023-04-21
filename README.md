@@ -1,2 +1,2 @@
 # KaitlynKing1.0
-Kaitlyn King Personal Page
+Informational. HTML, CSS, JavaScript
